@@ -14,8 +14,8 @@ public class HeadScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		GameObject gameManager = GameObject.Find ("GameManager");
-		TimeScript timer = gameManager.GetComponent<TimeScript>();
-		t = timer.t;
+		ControllerScript cs = gameManager.GetComponent<ControllerScript>();
+		t = cs.t;
 
 		Debug.Log(sleepLevel);
 

@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿/*
+
+using UnityEngine;
 using System.Collections;
 
 public class ColleagueScript : MonoBehaviour {
@@ -17,8 +19,8 @@ public class ColleagueScript : MonoBehaviour {
 
 
 		GameObject gameManager = GameObject.Find ("GameManager");
-		TimeScript timeScript = gameManager.GetComponent<TimeScript>();	
-		sleepLevel = timeScript.sleepLevel;
+		ControllerScript controllerScript = gameManager.GetComponent<ControllerScript>();	
+		sleepLevel = ControllerScript.sleepLevel;
 
 		if (sleepLevel == 3){
 			transform.rotation = Quaternion.Slerp(
@@ -32,3 +34,5 @@ public class ColleagueScript : MonoBehaviour {
 	}
 
 }
+
+*/

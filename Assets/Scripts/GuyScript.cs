@@ -29,9 +29,9 @@ public class GuyScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		GameObject gameManager = GameObject.Find ("GameManager");
-		TimeScript timeScript = gameManager.GetComponent<TimeScript>();
+		ControllerScript cs = gameManager.GetComponent<ControllerScript>();
 
-		sleepLevel = timeScript.sleepLevel;
+		sleepLevel = cs.sleepLevel;
 
 		switch(sleepLevel){
 		case 0:

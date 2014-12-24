@@ -16,9 +16,9 @@ public class Lights : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		GameObject gameManager = GameObject.Find ("GameManager");
-		TimeScript timer = gameManager.GetComponent<TimeScript>();
-		float sleepLevel = timer.sleepLevel;
-		t = timer.t;
+		ControllerScript cs = gameManager.GetComponent<ControllerScript>();
+		float sleepLevel = cs.sleepLevel;
+		t = cs.t;
 
 		if(sleepLevel >= 3){
 			if(spot.spotAngle > 35f){
