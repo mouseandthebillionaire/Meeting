@@ -62,11 +62,6 @@
      <Compile Include="Assets\Scripts\Pixelator.cs" />
      <Compile Include="Assets\Scripts\SkyScript.cs" />
      <Compile Include="Assets\Scripts\SunScript.cs" />
-     <Compile Include="Assets\usfxr\Samples\Main\MainSceneSample.cs" />
-     <Compile Include="Assets\usfxr\Scripts\usfxr\SfxrAudioPlayer.cs" />
-     <Compile Include="Assets\usfxr\Scripts\usfxr\SfxrCacheSurrogate.cs" />
-     <Compile Include="Assets\usfxr\Scripts\usfxr\SfxrParams.cs" />
-     <Compile Include="Assets\usfxr\Scripts\usfxr\SfxrSynth.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

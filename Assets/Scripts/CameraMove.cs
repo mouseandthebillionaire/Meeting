@@ -18,7 +18,7 @@ public class CameraMove : MonoBehaviour {
 			transform.position = destination;
 			spotlight.transform.position = destination;
 		} else {
-			transform.position = new Vector3(0, 0, -15);
+			transform.position = new Vector3(0, .5f, -10.0f);
 			spotlight.transform.position = new Vector3(0, 0, -15);
 		}
 
